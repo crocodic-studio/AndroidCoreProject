@@ -98,7 +98,7 @@ dependencies {
     /* Base64 Crypt */
     api(group = "commons-codec", name = "commons-codec", version = "1.11")
 
-    testImplementation("junit:junit:4.+")
+    testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
 }
