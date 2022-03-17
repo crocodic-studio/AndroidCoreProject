@@ -3,10 +3,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
-        //jcenter() // Warning: this repository is going to shut down soon
+        maven {
+            setUrl("https://jitpack.io")
+        }
     }
 }
 rootProject.name = "AndroidCore"
-include ':app'
-include ':core'
+include(":app")
+include(":core")
